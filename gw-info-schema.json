@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://gist.githubusercontent.com/NullSeile/f5c05923ed723aae2649b3e3f876f718/raw/2647d4ccaf31bb2072e5a3e5516e76cb8460027d/gw-info-schema.json",
+  "$id": "https://raw.githubusercontent.com/bgeo-gis/qwc2-gw-services-schemas/master/gw-info-schema.json",
   "title": "QWC2 Giswater Info Service",
   "type": "object",
   "properties": {
@@ -9,7 +9,7 @@
       "description": "Reference to JSON schema of this config",
       "type": "string",
       "format": "uri",
-      "default": "https://raw.githubusercontent.com/bgeo-gis/qwc2-giswater-info-service/master/schemas/gw-info.json"
+      "default": "https://raw.githubusercontent.com/bgeo-gis/qwc2-gw-services-schemas/master/gw-info-schema.json"
     },
     "service": {
       "title": "Service name",
@@ -25,7 +25,7 @@
           "type": "string"
         },
         "themes": {
-          "description": "Config generator URL",
+          "description": "Themes information",
           "type": "object"
         }
       },
